@@ -13,3 +13,9 @@ def update():
         toast.show_toast("Covid-19 Updates",text,duration=100)
         time.sleep(60)
 update()
+
+
+def home(a, b, c):
+    return a + b + c
+
+print(home(2, 8, 8))
